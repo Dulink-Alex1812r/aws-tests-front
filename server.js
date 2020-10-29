@@ -17,4 +17,5 @@ app.use(staticFileMiddleware);
 const port = process.env.PORT || 8080;
 app.listen(port);
 
+console.log('FUNCIONA MALDITO!');
 console.log("SERVER ON PORT : ", port);
